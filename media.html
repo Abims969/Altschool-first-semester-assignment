@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A little exposition about mysself</title>
+    <link rel="stylesheet" href="./css files/media.css" />
+</head>
+<body>
+    <ul>
+        <li><a href="./Index.html">Home</a></li>
+        <li><a href="./form.html">Form</a></li>
+        <li><a href="./table.html">Table</a></li>
+        <li><a href="#">Media</a></li>
+    </ul>
+
+    <header>
+        <h1>About Me: A Journey Through Media</h1>
+    </header>
+    
+    <section>
+        <h2>Welcome to My World</h2>
+        <p>In this section, I share my story through images, videos, and audio.</p>
+        
+        <!-- Picture Element with Responsive Images -->
+        <picture>
+            <source srcset="./images/Image 2.jpg" media="(max-width: 600px)">
+            <source srcset="./images/Image 1.jpg.jpg" media="(max-width: 1200px)">
+            <source srcset="./images/Image 3.jpg.jpg" media="(min-width: 1201px)">
+            <img src="./images/Image 2.jpg" alt="A photo of myself on different devices">
+        </picture>
+        
+        <h3>My Journey</h3>
+        <p>Every image tells a story. This image adapts to your device to give you the best experience.</p>
+            <br><br>
+        <!-- Video Element -->
+        <h3>My Video Introduction</h3>
+        <video controls>
+            <source src="/Media/Brief background.mp4" type="video/mp4">
+            <source src="/Media/Brief background.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <p>This video provides a brief introduction about who I am and what I do.</p>
+        <br><br>
+        <!-- Audio Element -->
+    <h3>One Of My Favorite Music</h3>
+    <audio controls>
+        <source src="/Media/Audio.mp3" type="audio/mpeg">
+    <source src="/Media/Audio.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+    </audio>
+    <p>Listen to one of the songs that inspires me from time to time.</p>
+    </section>
+
+    <footer>@2024 Media Element</footer>
+    
+    </body>
+    </html>
